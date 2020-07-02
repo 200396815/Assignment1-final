@@ -1,0 +1,16 @@
+extends layout
+
+block content
+	form#contact-form(name='contact-form')
+	.md-form.text-white.bg-warning
+		label(for='name') Full Name
+		input#name.form-control(type='text', name='name')
+	.md-form.text-white.bg-warning
+		label(for='email') Emaild ID
+		input#email.form-control(type='text', name='email')
+	.md-form.text-white.bg-warning
+		label(for='message') TYPE Message
+		textarea#message.form-control.md-textarea(type='text', name='message', rows='2')
+	.text-center.text-md-left
+		<button><ahref="Send">
+		a.btn.btn-success(onclick="document.getElementById('contact-form').submit();") Send

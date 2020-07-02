@@ -1,0 +1,10 @@
+body {
+    padding: 70px;
+    font: 30px "Chiller", Helvetica, Baskerville Old Face, sans-serif;
+    color: #FFFAFA;
+    background-image: url("/images1/back1.jpg");
+    background-size: cover;
+}
+a {
+    color: #FF0000;
+}
